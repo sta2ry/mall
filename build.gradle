@@ -62,7 +62,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
 //    implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("org.springframework.boot:spring-boot-starter-undertow")
-
+    implementation("io.github.openfeign:feign-okhttp:11.2")
     implementation("com.alibaba.csp:sentinel-datasource-nacos")
     implementation("com.squareup.okhttp3:okhttp:${okHttpVersion}")
     implementation("com.google.guava:guava:${guavaVersion}")
